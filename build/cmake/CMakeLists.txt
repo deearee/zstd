@@ -214,3 +214,6 @@ install(FILES
     "${CMAKE_CURRENT_BINARY_DIR}/zstdConfigVersion.cmake"
     DESTINATION ${ConfigPackageLocation}
     )
+
+add_executable(fse_test ../../tests/fse_test.cpp)
+target_link_libraries(fse_test libzstd_static)

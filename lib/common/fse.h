@@ -39,6 +39,9 @@ extern "C" {
 #  define FSE_PUBLIC_API
 #endif
 
+extern int enableScaling;
+extern int enableSmallValues;
+
 /*------   Version   ------*/
 #define FSE_VERSION_MAJOR    0
 #define FSE_VERSION_MINOR    9
